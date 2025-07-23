@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Dekho</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="title" onclick="refreshPage()">NEWS DEKHO.COM</div>
+            <nav>
+                <ul class="menu">
+                    <li onclick="fetchNews('Sports')">Sports</li>
+                    <li onclick="fetchNews('Politics')">Politics</li>
+                    <li onclick="fetchNews('Technology')">Technology</li>
+                    <li onclick="fetchNews('Science')">Science</li>
+                    <li onclick="fetchNews('Health')">Health</li>
+                    <li onclick="fetchNews('Entertainment')">Entertainment</li>
+                    <li onclick="fetchNews('Business')">Business</li>
+                    <li onclick="fetchNews('World')">World</li>
+                    <li onclick="fetchNews('Weather')">Weather</li>
+                    <li onclick="fetchNews('India')">India</li>
+                    <li onclick="fetchNews('Delhi')">Delhi</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="search-bar-container">
+        <input id="search-input" type="text" placeholder="Search for news...">
+        <button id="search-btn">Search</button>
+    </div>
+
+    <main>
+        <div class="cards-container" id="cards-container"></div>
+    </main>
+
+    <template id="template-news-card">
+        <div class="card">
+            <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            <h3 id="news-title">News Title</h3>
+            <p id="news-desc">News description...</p>
+            <p id="news-source">Source and Date</p>
+        </div>
+    </template>
+
+    <script src="script1.js"></script>
+</body>
+</html>
