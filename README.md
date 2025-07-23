@@ -2,9 +2,6 @@
 
 **News Dekho.com** is a simple and responsive news display website built using HTML, CSS, and JavaScript. It fetches and displays the latest news headlines dynamically for users, providing a clean and informative interface.
 
-## 🌐 Live Demo
-
-You can [deploy it on GitHub Pages](https://pages.github.com/) or any static hosting platform to see it live.
 
 ## 📁 Project Structure
 
@@ -46,10 +43,5 @@ News Dekho.com/
 - Add category filters (e.g., sports, politics, technology)
 - Improve mobile responsiveness
 
-## 🙌 Acknowledgements
 
-This project is created as part of a personal learning initiative. Thanks to all online resources and tutorials that made this possible.
 
-## 📃 License
-
-This project is open source and available under the [MIT License](LICENSE).
